@@ -34,6 +34,9 @@ Later you can use the script on the cronjob to post to Twitter for example every
 */5 * * * * /usr/bin/php -q /home/your_any_folder/post_to_twitter.php > /dev/null 2>&1
 </pre>
 
+<h2>Improvements:</h2>
+You can improve or create your own needs based on this project.
+
 <h2>Credits:</h2>
 This project is using library from https://github.com/themattharris/tmhOAuth/
 
