@@ -8,7 +8,7 @@ Imagine you have a blog or news database and you want to publish your blog/news 
 Requirements:<br>
 - You need to have news/article/blog table<br>
 - Your table structure usually looks like this.<br>
-<pre>
+<pre><br>
 ---------------------------------------------------------------------------------------------------------------
 id | title    | description    | url                          | published_datetime  | is_published_to_twitter |
 ---------------------------------------------------------------------------------------------------------------
@@ -17,5 +17,7 @@ id | title    | description    | url                          | published_dateti
 </pre>
 - You have to create Twitter application (with read/write permission).<br>
 - Get the consumer key, consumer secret, user token and user secret from Twitter application details.<br>
-- The column 'is_published_to_twitter' is used to detect that row/lines already published to Twitter, so the default should be 0 and after success published to Twitter then it will set to 1.<br> 
+- The column 'is_published_to_twitter' is used to detect that row/lines already published to Twitter, so the default should be 0 and after success published to Twitter then it will set to 1.<br>
+
+OK now let see the code.
 
