@@ -1,7 +1,7 @@
 twitter-bot
 ===========
 
-This project 'twitter-bot' is an easy sample of creating a Twitter bot for your info service. This project is based on PHP.
+This project 'twitter-bot' is an easy sample of creating a Twitter bot for your info service. This sample project is based on PHP.
 
 Imagine you have a blog or news database and you want to publish your blog/news to your Twitter followers.
 
