@@ -1,11 +1,12 @@
 twitter-bot
 ===========
 
+<h2>What is twitter-bot:</h2>
 This project 'twitter-bot' is an easy sample of creating a Twitter bot for your info service. This sample project is based on PHP.
 
 Imagine you have a blog or news database and you want to publish your blog/news to your Twitter followers.
 
-Requirements:<br>
+<h2>Requirements:</h2>
 - You need to have news/article/blog table<br>
 - Your table structure usually looks like this.<br>
 <pre><br>
@@ -24,4 +25,7 @@ id | title    | description    | url                          | published_dateti
 - The column 'is_published_to_twitter' is used to detect that row/lines already published to Twitter, so the default should be 0 and after success published to Twitter then it will set to 1.<br>
 
 OK now let see the code.
+
+<h2>Credits:</h2>
+This project is using library from https://github.com/themattharris/tmhOAuth/
 
