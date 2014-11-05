@@ -26,6 +26,13 @@ id | title    | description    | url                          | published_dateti
 
 OK now let see the code.
 
+<h2>Real world usage:</h2>
+Later you can use the script on the cronjob to post to Twitter for example every 5 minutes. This is the example of cronjob setup that run the script every 5 minutes.
+
+<pre>
+*/5 * * * * /usr/bin/php -q /home/your_any_folder/post_to_twitter.php > /dev/null 2>&1
+</pre>
+
 <h2>Credits:</h2>
 This project is using library from https://github.com/themattharris/tmhOAuth/
 
