@@ -9,7 +9,8 @@ Imagine you have a blog or news database and you want to publish your blog/news 
 <h2>Requirements:</h2>
 - You need to have news/article/blog table<br>
 - Your table structure usually looks like this.<br>
-<pre><br>
+<br>
+<pre>
 ---------------------------------------------------------------------------------------------------------------
 Table name: news
 ---------------------------------------------------------------------------------------------------------------
